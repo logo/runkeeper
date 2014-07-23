@@ -1,0 +1,21 @@
+
+/**
+ * RunKeeper logo.
+ */
+
+.logo[data-logo="RunKeeper"] {
+  width: 0;
+}
+
+.logo[data-logo="RunKeeper"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="RunKeeper"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="RunKeeper"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
